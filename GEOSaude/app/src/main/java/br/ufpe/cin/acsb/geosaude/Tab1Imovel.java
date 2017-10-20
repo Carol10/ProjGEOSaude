@@ -6,9 +6,11 @@ package br.ufpe.cin.acsb.geosaude;
 
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
+import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.ArrayAdapter;
 
@@ -38,5 +40,20 @@ public class Tab1Imovel extends Fragment {
         mMotivo.setAdapter(mArrayAdaptaMotivo);
 
         return rootView;
+    }
+
+
+    public void onStart() {
+        super.onStart();
+        EditText txtDate = (EditText)findViewById(R.id.txtdate);
+        txtDate.setOnFocusChangeListener(new View.OnFocusChangeListener());
+
+        public void onFocusChange (View v, boolean hasFocus) {
+            if(hasFocus) {
+                DateDialog dialog = new DateDialog(v);
+                FragmentTransaction ft = getFragmentManager().beginTransaction();
+                dialog.show(ft, "DatePricker");
+            }
+    }
     }
 }

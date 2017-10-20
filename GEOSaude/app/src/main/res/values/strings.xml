@@ -39,29 +39,30 @@
 
     </string-array>
 
-    <string name="longin">Longin</string>
-    <string name="senha">Senha</string>
-    <string name="tipo_do_imavel">Tipo do Imavel:</string>
-    <string name="resind_ncia">Resindência</string>
+    <string name="login">Login:</string>
+    <string name="senha">Senha:</string>
+
+    <string name="tipo_do_imavel">Tipo do Imóvel:</string>
+    <string name="resind_ncia">Residência</string>
     <string name="servi_os_privados">Serviços Privados</string>
     <string name="n_mero">Número:</string>
     <string name="longitude">Longitude:</string>
     <string name="latitude">Latitude:</string>
     <string name="rua">Rua:</string>
     <string name="situa_o">Situação:</string>
-    <string name="data_da_visita">Data da visita:</string>
+    <string name="data_da_visita">Data da Visita:</string>
     <string name="tipos_de_criadouro">Tipos de Criadouro:</string>
     <string name="criadouros">Criadouros:</string>
-    <string name="tratamento_aedes">Tratamento Aedes</string>
+    <string name="tratamento_aedes">Tratamento Aedes:</string>
     <string name="positivo">Positivo</string>
-    <string name="mecanico">Mecanico</string>
-    <string name="biologico">Biologico</string>
+    <string name="mecanico">Mecânico</string>
+    <string name="biologico">Biológico</string>
     <string name="qu_mico">Químico</string>
-    <string name="deposito">Deposito</string>
+    <string name="deposito">Depósito:</string>
     <string name="fossa">Fossa</string>
     <string name="cisterna">Cisterna</string>
     <string name="bti_g">BTI G</string>
-    <string name="grama">Grama</string>
+    <string name="grama">Grama:</string>
     <string name="bti_wdg">BTI WDg</string>
     <string name="bsg">BsG</string>
 

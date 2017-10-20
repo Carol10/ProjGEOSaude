@@ -19,13 +19,14 @@
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_gravity="left"
-            android:text="criadouros"
+            android:text="@string/criadouros"
             android:textSize="25sp" />
 
         <CheckBox
             android:id="@+id/A1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
             android:text="A1"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="48dp" />
@@ -88,15 +89,17 @@
             android:layout_width="368dp"
             android:layout_height="wrap_content"
             android:layout_gravity="left"
+            android:layout_marginTop="20dp"
             android:text="@string/tratamento_aedes"
             android:textSize="25sp"
-            tools:layout_editor_absoluteY="0dp"
-            tools:layout_editor_absoluteX="8dp" />
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp" />
 
         <CheckBox
             android:id="@+id/positivo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
             android:text="@string/positivo"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="48dp" />

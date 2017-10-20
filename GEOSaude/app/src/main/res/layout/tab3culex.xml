@@ -26,6 +26,7 @@
             android:id="@+id/fossa"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
             android:text="@string/fossa"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="48dp" />
@@ -73,6 +74,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="left"
+            android:layout_marginTop="20dp"
             android:text="@string/bti_g"
             android:textSize="20sp" />
 
@@ -87,7 +89,7 @@
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_gravity="left"
-            android:layout_marginTop="0dp"
+            android:layout_marginTop="10dp"
             android:hint="quantidade"
             android:inputType="numberSigned"
             android:paddingTop="10dp"
@@ -98,6 +100,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="left"
+            android:layout_marginTop="20dp"
             android:text="@string/grama"
             android:textSize="20sp" />
 
@@ -117,6 +120,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="left"
+            android:layout_marginTop="20dp"
             android:text="@string/bti_wdg"
             android:textSize="20sp" />
 
@@ -131,7 +135,7 @@
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_gravity="left"
-            android:layout_marginTop="0dp"
+            android:layout_marginTop="10dp"
             android:hint="quantidade"
             android:inputType="numberSigned"
             android:paddingTop="10dp"
@@ -142,6 +146,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="left"
+            android:layout_marginTop="20dp"
             android:text="@string/grama"
             android:textSize="20sp" />
 
@@ -160,6 +165,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="left"
+            android:layout_marginTop="20dp"
             android:text="@string/bsg"
             android:textSize="20sp" />
 
@@ -174,23 +180,16 @@
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_gravity="left"
-            android:layout_marginTop="0dp"
+            android:layout_marginTop="10dp"
             android:hint="quantidade"
             android:inputType="numberSigned"
             android:paddingTop="10dp"
             android:textAlignment="center"
             android:textSize="20sp" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:text="@string/grama"
-            android:textSize="20sp" />
-
         <EditText
             android:layout_width="150dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_gravity="left"
             android:layout_marginTop="10dp"
             android:hint="quantidade"

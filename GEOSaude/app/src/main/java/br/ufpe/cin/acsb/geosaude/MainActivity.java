@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void init(){
 
-        butLog = (Button)findViewById(R.id.button);
+        butLog = (Button)findViewById(R.id.btLogin);
 
         butLog.setOnClickListener(new View.OnClickListener(){
             @Override
